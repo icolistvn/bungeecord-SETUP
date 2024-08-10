@@ -54,6 +54,7 @@ sudo nano plugins/BungeeGuard/token.yml
 >> Thay toan bo 25565 thanh port mong muon ex:101
 
 -------- BungeeCord AutoStart ----------------
+cd ..
 sudo nano pink.sh
 >>> chen vo
 ---------------
