@@ -105,6 +105,8 @@ sudo nano plugins/BungeeGuard/token.yml
 
 -------- BungeeCord AutoStart ----------------
 
+cd ..
+
 sudo nano pink.sh
 
 >>> chen vo
