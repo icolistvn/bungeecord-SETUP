@@ -121,9 +121,9 @@ chen cuoi dong >>
 
 -----------------------
 
-@reboot sudo pink.sh
+@reboot sh pink.sh
 
-@reboot sudo yellow.sh
+@reboot sh yellow.sh
 
 ----------------------
 
