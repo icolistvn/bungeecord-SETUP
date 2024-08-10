@@ -53,6 +53,10 @@ sudo rm config.yml
 
 sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/YELLOW/config.yml
 
+Thay doi ip server >>  sudo nano config.yml
+
+ctr+x >> y >> enter
+
 sudo nano plugins/BungeeGuard/token.yml
 
 >> Coppi token SERVER YELLOW   >>> \plugins\BungeeGuard\config.yml
@@ -90,6 +94,10 @@ doi chay 0.0.0.0:25577 >>> ctr+c
 sudo rm config.yml
 
 sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/PINK/config.yml
+
+Thay doi ip server >>  sudo nano config.yml
+
+ctr+x >> y >> enter
 
 sudo nano plugins/BungeeGuard/token.yml
 
