@@ -22,14 +22,12 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    motd: §d§lPINK DUCK §x§F§F§0§0§0§0C§x§F§F§7§F§0§0L§x§F§F§B§F§0§0E§x§F§F§F§F§0§0A§x§8§0§F§F§0§0R
-      §x§0§0§0§0§F§FS§x§4§B§0§0§8§2A§x§7§0§0§0§A§BN§x§9§4§0§0§D§3D
+    motd: §2§lUNCLE SEA §x§F§F§0§0§0§0T§x§F§F§7§F§0§0E§x§F§F§B§F§0§0A§x§F§F§F§F§0§0M §x§0§0§0§0§F§FS§x§2§6§0§0§C§1A§x§4§B§0§0§8§2N§x§9§4§0§0§D§3D
     address: 171.226.237.245:25565
     restricted: false
 listeners:
 - query_port: 25565
-  motd: §d§lPINK DUCK §x§F§F§0§0§0§0C§x§F§F§7§F§0§0L§x§F§F§B§F§0§0E§x§F§F§F§F§0§0A§x§8§0§F§F§0§0R
-      §x§0§0§0§0§F§FS§x§4§B§0§0§8§2A§x§7§0§0§0§A§BN§x§9§4§0§0§D§3D
+  motd: §2§lUNCLE SEA §x§F§F§0§0§0§0T§x§F§F§7§F§0§0E§x§F§F§B§F§0§0A§x§F§F§F§F§0§0M §x§0§0§0§0§F§FS§x§2§6§0§0§C§1A§x§4§B§0§0§8§2N§x§9§4§0§0§D§3D
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
