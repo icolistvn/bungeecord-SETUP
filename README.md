@@ -22,14 +22,6 @@ sudo ufw allow 100
 
 sudo ufw allow 101
 
-sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/pink.sh
-
-sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/yellow.sh
-
-chmod +x pink.sh
-
-chmod +x yellow.sh
-
 ------ SERVER YELLOW ------
 
 mkdir -p yellow
@@ -112,6 +104,41 @@ sudo nano plugins/BungeeGuard/token.yml
 
 
 -------- BungeeCord AutoStart ----------------
+
+sudo nano pink.sh
+
+>>> chen vo
+
+---------------
+
+cd pink
+
+sudo java -jar BungeeCord.jar
+
+---------------
+
+
+ctr+x >> y >> enter
+
+
+sudo nano yellow.sh
+
+>>> chen vo
+
+---------------
+
+cd yellow
+
+sudo java -jar BungeeCord.jar
+
+---------------
+
+
+ctr+x >> y >> enter
+
+chmod +x pink.sh
+
+chmod +x yellow.sh
 
 sudo crontab -e
 
