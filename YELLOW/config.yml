@@ -1,0 +1,55 @@
+server_connect_timeout: 5000
+enforce_secure_profile: false
+forge_support: false
+player_limit: 100
+log_pings: false
+permissions:
+  default:
+  - bungeecord.command.server
+  - bungeecord.command.list
+  admin:
+  - bungeecord.command.alert
+  - bungeecord.command.end
+  - bungeecord.command.ip
+  - bungeecord.command.reload
+  - bungeecord.command.kick
+  - bungeecord.command.send
+  - bungeecord.command.find
+timeout: 30000
+log_commands: false
+online_mode: false
+disabled_commands:
+- disabledcommandhere
+servers:
+  lobby:
+    motd: §2§lUNCLE SEA §x§F§F§0§0§0§0T§x§F§F§7§F§0§0E§x§F§F§B§F§0§0A§x§F§F§F§F§0§0M §x§0§0§0§0§F§FS§x§2§6§0§0§C§1A§x§4§B§0§0§8§2N§x§9§4§0§0§D§3D
+    address: 171.226.237.245:25565
+    restricted: false
+listeners:
+- query_port: 25565
+  motd: §2§lUNCLE SEA §x§F§F§0§0§0§0T§x§F§F§7§F§0§0E§x§F§F§B§F§0§0A§x§F§F§F§F§0§0M §x§0§0§0§0§F§FS§x§2§6§0§0§C§1A§x§4§B§0§0§8§2N§x§9§4§0§0§D§3D
+  tab_list: GLOBAL_PING
+  query_enabled: false
+  proxy_protocol: false
+  forced_hosts:
+    pvp.md-5.net: pvp
+  ping_passthrough: false
+  priorities:
+  - lobby
+  bind_local_address: true
+  host: 0.0.0.0:25565
+  max_players: 100
+  tab_size: 60
+  force_default_server: true
+remote_ping_timeout: 5000
+ip_forward: true
+network_compression_threshold: 256
+reject_transfers: false
+remote_ping_cache: -1
+connection_throttle: 4000
+stats: 35f935de-46f6-489c-8170-31d714e67165
+connection_throttle_limit: 3
+groups:
+  md_5:
+  - admin
+prevent_proxy_connections: false
