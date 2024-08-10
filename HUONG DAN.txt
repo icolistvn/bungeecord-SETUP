@@ -62,8 +62,8 @@ sudo crontab -e
 >> Nhan 1
 chen cuoi dong >> 
 -----------------------
-@reboot sudo pink.sh
-@reboot sudo yellow.sh
+@reboot sh pink.sh
+@reboot sh yellow.sh
 ----------------------
 ctr+x >> y >> enter
 sudo reboot
