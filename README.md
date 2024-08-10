@@ -1,3 +1,5 @@
+UbuntuServer-24.04-x64
+
 https://ap-southeast-2.console.aws.amazon.com/ec2/home?region=ap-southeast-2#Home:
 
 https://github.com/icolistvn/bungeecord-SETUP
@@ -10,9 +12,29 @@ sudo apt upgrade
 
 sudo apt install openjdk-17-jdk -y
 
+sudo apt-get install cron
+
 sudo ufw allow 25565
 
 sudo ufw allow 19132
+
+sudo ufw allow 100
+
+sudo ufw allow 101
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/pink.sh
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/yellow.sh
+
+chmod +x pink.sh
+
+chmod +x yellow.sh
+
+------ SERVER YELLOW ------
+
+mkdir -p yellow
+
+cd yellow
 
 sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/BungeeCord.jar
 
@@ -37,32 +59,83 @@ doi chay 0.0.0.0:25577 >>> ctr+c
 
 sudo rm config.yml
 
-sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/config.yml
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/YELLOW/config.yml
+
+sudo nano plugins/BungeeGuard/token.yml
+
+>> Coppi token SERVER YELLOW   >>> \plugins\BungeeGuard\config.yml
 
 
-#CHINH LAI CAU HINH >>  sudo nano config.yml
+------ SERVER PINK ------
 
-#CHINH LAI CAU HINH PORT 19132 PE >>sudo nano plugins/Geyser-BungeeCord/config.yml
+cd ..
 
->> Thay toan bo 19132 thanh port mong muon
->> 
+mkdir -p pink
+
+cd pink
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/BungeeCord.jar
+
+mkdir -p plugins
+
+cd plugins
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Geyser-BungeeCord.jar
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/BungeeGuard.jar
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/ViaVersion-5.0.3.jar
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/floodgate-bungee.jar
+
+cd ..
+
+sudo java -jar BungeeCord.jar
+
+doi chay 0.0.0.0:25577 >>> ctr+c
+
+
+sudo rm config.yml
+
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/PINK/config.yml
+
+sudo nano plugins/BungeeGuard/token.yml
+
+>> Coppi token SERVER PINK   >>> \plugins\BungeeGuard\config.yml
+
+#CHINH LAI CAU HINH PORT PE (Tranh trung IP SERVER PORT YELLOW)>>sudo nano plugins/Geyser-BungeeCord/config.yml
+
+>> Thay toan bo 19132 thanh port mong muon ex:100
+
+>> Thay toan bo 25565 thanh port mong muon ex:101
+
+
 
 -------- BungeeCord AutoStart ----------------
 
-sudo corntab -e 
+sudo crontab -e
 
 >> Nhan 1
 >> 
-cuoi dong >> @reboot sudo java -jar BungeeCord.jar
+chen cuoi dong >> 
+
+-----------------------
+
+@reboot sudo pink.sh
+
+@reboot sudo yellow.sh
+
+----------------------
 
 ctr+x >> y >> enter
 
 sudo reboot
 
--------------------------------
 
->>>>> loi not foud corntad
->>>>> 
+-------------neu crontab not foud-----------------
+
+sudo apt install make 
+
 git clone https://github.com/cronie-crond/cronie.git
 
 cd cronie
@@ -75,22 +148,12 @@ make
 
 sudo make install
 
----------------------------------------------
-
 
 ## SERVER MINERCRAFT ##
 
 >>> spigot.yml >>  bungeecord: true
->>>
 >>> 
 
->>Vao SERVER PROXY
->>
-sudo nano plugins/BungeeGuard/token.yml
-
-Copi token pass vao server minercraft >>> \plugins\BungeeGuard\config.yml
 
 
-J3mnN1dHgeqyrGAcRBH7BrzDwGXnZJMdK37LPjoXx3TUs2orYo685vLVotXYlmaT
-
-
+UuEfx!:s=in@,.J~rTHJgz3q
