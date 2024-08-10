@@ -152,8 +152,4 @@ sudo make install
 ## SERVER MINERCRAFT ##
 
 >>> spigot.yml >>  bungeecord: true
->>> 
 
-
-
-UuEfx!:s=in@,.J~rTHJgz3q
