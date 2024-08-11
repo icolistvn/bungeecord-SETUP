@@ -72,7 +72,7 @@ enable-player-address-logging = true
 [servers]
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
-lobby = "ip_server_minercraft:25565"
+lobby = "27.64.220.32:25565"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
@@ -112,7 +112,7 @@ haproxy-protocol = false
 tcp-fast-open = false
 
 # Enables BungeeCord plugin messaging channel support on Velocity.
-bungee-plugin-message-channel = false
+bungee-plugin-message-channel = true
 
 # Shows ping requests to the proxy from clients.
 show-ping-requests = false
@@ -124,14 +124,14 @@ show-ping-requests = false
 failover-on-unexpected-server-disconnect = true
 
 # Declares the proxy commands to 1.13+ clients.
-announce-proxy-commands = false
+announce-proxy-commands = true
 
 # Enables the logging of commands
 log-command-executions = false
 
 # Enables logging of player connections when connecting to the proxy, switching servers
 # and disconnecting from the proxy.
-log-player-connections = false
+log-player-connections = true
 
 # Allows players transferred from other hosts via the
 # Transfer packet (Minecraft 1.20.5) to be received.
@@ -145,8 +145,7 @@ enabled = false
 port = 25565
 
 # This is the map name that is reported to the query services.
-map = "Uncle Sea MAP"
+map = "Velocity"
 
 # Whether plugins should be shown in query response by default or not
 show-plugins = false
-
