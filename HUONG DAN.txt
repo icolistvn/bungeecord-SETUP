@@ -63,7 +63,7 @@ sudo nano pink.sh
 >>> chen vo
 ---------------
 cd pink
-sudo java -Xms256M -Xmx512M -jar BungeeCord.jar
+sudo java -Xms512M -Xmx512M -jar BungeeCord.jar
 ---------------
 ctr+x >> y >> enter
 
@@ -71,7 +71,7 @@ sudo nano yellow.sh
 >>> chen vo
 ---------------
 cd yellow
-sudo java -Xms256M -Xmx512M -jar BungeeCord.jar
+sudo java -Xms512M -Xmx512M -jar BungeeCord.jar
 ---------------
 ctr+x >> y >> enter
 
