@@ -32,11 +32,11 @@ ctr+x >> y >> enter
 
 -------- BungeeCord AutoStart ----------------
 cd ..
-sudo crontab -e
+crontab -e  (Khong chon sudo nha >>>DM NO)
 >> Nhan 1
 chen cuoi dong >> 
 -----------------------
-@reboot sudo /usr/bin/java -jar /home/ubuntu/BungeeCord.jar
+@reboot sudo java -jar BungeeCord.jar
 ----------------------
 ctr+x >> y >> enter
 sudo reboot
@@ -48,5 +48,3 @@ locate BungeeCord.jar
 
 ## SERVER MINERCRAFT ##
 >>> spigot.yml >>  bungeecord: true
-
-
