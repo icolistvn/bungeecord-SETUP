@@ -63,7 +63,7 @@ sudo nano pink.sh
 >>> chen vo
 ---------------
 cd pink
-sudo java -jar BungeeCord.jar
+sudo java -Xms256M -Xmx512M -jar BungeeCord.jar
 ---------------
 ctr+x >> y >> enter
 
@@ -71,7 +71,7 @@ sudo nano yellow.sh
 >>> chen vo
 ---------------
 cd yellow
-sudo java -jar BungeeCord.jar
+sudo java -Xms256M -Xmx512M -jar BungeeCord.jar
 ---------------
 ctr+x >> y >> enter
 
@@ -98,3 +98,10 @@ sudo make install
 
 ## SERVER MINERCRAFT ##
 >>> spigot.yml >>  bungeecord: true
+
+
+
+---- TOI UU VPS UBUNTU -----
+sudo apt-get autoremove
+sudo apt-get clean
+sudo apt-get clean
