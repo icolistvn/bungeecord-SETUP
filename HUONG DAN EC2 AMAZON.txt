@@ -48,3 +48,8 @@ locate BungeeCord.jar
 
 ## SERVER MINERCRAFT ##
 >>> spigot.yml >>  bungeecord: true
+
+---- TOI UU VPS UBUNTU -----
+sudo apt-get autoremove
+sudo apt-get clean
+sudo sysctl vm.swappiness=10
