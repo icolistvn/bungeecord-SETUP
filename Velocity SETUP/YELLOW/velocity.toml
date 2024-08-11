@@ -145,7 +145,7 @@ enabled = false
 port = 25565
 
 # This is the map name that is reported to the query services.
-map = "Velocity"
+map = "UNCLE SEA MAP"
 
 # Whether plugins should be shown in query response by default or not
 show-plugins = false
