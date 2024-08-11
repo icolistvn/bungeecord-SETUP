@@ -1,1 +1,53 @@
 
+UbuntuServer-24.04-x64
+https://ap-southeast-2.console.aws.amazon.com/ec2/home?region=ap-southeast-2#Home:
+https://github.com/icolistvn/bungeecord-SETUP
+## SERVER PROXY ##
+sudo apt update
+sudo apt upgrade
+sudo apt install openjdk-17-jdk -y
+sudo apt-get install cron
+sudo apt-get install htop
+sudo ufw allow 25565
+sudo ufw allow 19132
+sudo ufw allow 100
+sudo ufw allow 101
+------ SERVER ------
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/velocity.jar
+mkdir -p plugins
+cd plugins
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/Geyser-Velocity.jar
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/ViaVersion-5.0.3.jar
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/floodgate-velocity.jar
+cd ..
+sudo java -Xms256M -Xmx512M -jar velocity.jar
+doi chay 0.0.0.0:25577 >>> ctr+c
+
+sudo rm velocity.toml
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/YELLOW/velocity.toml
+PINK >> sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/PINK/velocity.toml
+
+Thay doi ip server >>  sudo nano velocity.toml
+ctr+x >> y >> enter
+
+# CHINH NAME MOBLIE "." thanh "" >>> sudo nano plugins/floodgate/config.yml
+ctr+x >> y >> enter
+
+sudo nano forwarding.secret
+>> Coppi token SERVER YELLOW   >>> \config\paper-global.yml
+------------------------------
+  velocity:
+    enabled: true
+    online-mode: false
+    secret: 'pasre secret o day'
+----------------------------------------
+
+-------- BungeeCord AutoStart ----------------
+crontab -e
+>> Nhan 1
+chen cuoi dong >> 
+-----------------------
+@reboot sudo java -Xms256M -Xmx512M -jar velocity.jar
+----------------------
+ctr+x >> y >> enter
+sudo reboot
