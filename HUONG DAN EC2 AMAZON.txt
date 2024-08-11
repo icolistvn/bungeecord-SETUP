@@ -36,7 +36,7 @@ crontab -e  (Khong chon sudo nha >>>DM NO)
 >> Nhan 1
 chen cuoi dong >> 
 -----------------------
-@reboot sudo java -jar BungeeCord.jar
+@reboot sudo java -Xms512M -Xmx512M -jar BungeeCord.jar
 ----------------------
 ctr+x >> y >> enter
 sudo reboot
