@@ -77,7 +77,7 @@ ctr+x >> y >> enter
 
 chmod +x pink.sh
 chmod +x yellow.sh
-sudo crontab -e
+crontab -e
 >> Nhan 1
 chen cuoi dong >> 
 -----------------------
