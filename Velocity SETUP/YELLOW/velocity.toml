@@ -6,7 +6,7 @@ bind = "0.0.0.0:25565"
 
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Only MiniMessage format is accepted.
-motd = "<#00AA00>&lUNCLE SEA <#06FF00>T<#FF7F00>E<#FFBF00>A<#FFFF00>M <#0000FF>S<#2600C1>A<#4B0082>N<#9400D3>D"
+motd = "<#00AA00>UNCLE SEA <#06FF00>T<#FF7F00>E<#FFBF00>A<#FFFF00>M <#0000FF>S<#2600C1>A<#4B0082>N<#9400D3>D"
 
 # What should we display for the maximum number of players? (Velocity does not support a cap
 # on the number of players online.)
