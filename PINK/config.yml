@@ -23,7 +23,7 @@ disabled_commands:
 servers:
   lobby:
     motd: §d§lPINK DUCK §x§F§F§0§0§0§0C§x§F§F§7§F§0§0L§x§F§F§B§F§0§0E§x§F§F§F§F§0§0A§x§8§0§F§F§0§0R §x§0§0§0§0§F§FS§x§4§B§0§0§8§2A§x§7§0§0§0§A§BN§x§9§4§0§0§D§3D
-    address: :25565
+    address: change_ip_here:25565
     restricted: false
 listeners:
 - query_port: 25565
