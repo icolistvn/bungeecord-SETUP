@@ -52,11 +52,9 @@ ctr+x >> y >> enter
 
 ------------THAY NGON NGU-----------
 cd lang
-rm messages.properties
+sudo rm messages.properties
 sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/messages.properties
 sudo reboot
-sudo reboot
-
 
 
 ---- TOI UU VPS UBUNTU -----
