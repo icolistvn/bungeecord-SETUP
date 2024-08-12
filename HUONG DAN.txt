@@ -6,6 +6,7 @@ sudo apt update
 sudo apt upgrade
 sudo apt install openjdk-17-jdk -y
 sudo apt-get install cron
+sudo apt-get install htop
 sudo ufw allow 25565
 sudo ufw allow 19132
 sudo ufw allow 100
@@ -28,9 +29,12 @@ sudo rm config.yml
 sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/YELLOW/config.yml
 Thay doi ip server >>  sudo nano config.yml
 ctr+x >> y >> enter
+
 sudo nano plugins/BungeeGuard/token.yml
 >> Coppi token SERVER YELLOW   >>> \plugins\BungeeGuard\config.yml
 
+# CHINH NAME MOBLIE "." thanh "§e" >>> sudo nano plugins/floodgate/config.yml
+ctr+x >> y >> enter
 ------ SERVER PINK ------
 cd ..
 mkdir -p pink
@@ -57,6 +61,9 @@ sudo nano plugins/BungeeGuard/token.yml
 >> Thay toan bo 19132 thanh port mong muon ex:100
 >> Thay toan bo 25565 thanh port mong muon ex:101
 
+
+# CHINH NAME MOBLIE "." thanh "§e" >>> sudo nano plugins/floodgate/config.yml
+ctr+x >> y >> enter
 -------- BungeeCord AutoStart ----------------
 cd ..
 sudo nano pink.sh
@@ -100,8 +107,7 @@ sudo make install
 >>> spigot.yml >>  bungeecord: true
 
 
-
 ---- TOI UU VPS UBUNTU -----
 sudo apt-get autoremove
 sudo apt-get clean
-sudo apt-get clean
+sudo sysctl vm.swappiness=10
