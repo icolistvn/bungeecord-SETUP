@@ -19,7 +19,7 @@ sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETU
 sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/ViaVersion-5.0.3.jar
 sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/floodgate-velocity.jar
 cd ..
-sudo java -Xms256M -Xmx512M -jar velocity.jar
+sudo java -Xms512M -Xmx512M -jar velocity.jar
 doi chay 0.0.0.0:25565 >>> ctr+c
 
 sudo rm velocity.toml
