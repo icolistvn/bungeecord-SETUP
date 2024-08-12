@@ -46,7 +46,7 @@ crontab -e
 >> Nhan 1
 chen cuoi dong >> 
 -----------------------
-@reboot sudo java -Xms256M -Xmx512M -jar velocity.jar
+@reboot sudo java -Xms512M -Xmx512M -jar velocity.jar
 ----------------------
 ctr+x >> y >> enter
 
