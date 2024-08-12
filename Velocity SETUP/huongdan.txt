@@ -49,6 +49,12 @@ chen cuoi dong >>
 @reboot sudo java -Xms256M -Xmx512M -jar velocity.jar
 ----------------------
 ctr+x >> y >> enter
+
+------------THAY NGON NGU-----------
+cd lang
+rm messages.properties
+sudo wget https://github.com/icolistvn/bungeecord-SETUP/raw/main/Velocity%20SETUP/messages.properties
+sudo reboot
 sudo reboot
 
 
